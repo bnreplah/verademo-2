@@ -29,7 +29,7 @@ jobs:
             # Show update advisor
             update_advisor: true # optional, default is false
             # A git URL to work with in case the scan is not for the current repository
-            url: https://github.com/bnreplah/verademo-2 # optional, default is 
+            # url: https://github.com/bnreplah/verademo-2/app # optional, default is 
             # An attribute to instruct the action to create an issue from found vulnerability or just simple text output
             create-issues: true # optional, default is false
             # A path within the repository where the build definition starts
