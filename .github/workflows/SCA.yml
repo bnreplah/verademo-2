@@ -23,7 +23,7 @@ jobs:
           uses: veracode/veracode-sca@v2.1.6
           with:
             # Authorization token to query and create issues
-            github_token: ${{ github.token }} # default is ${{ github.token }}
+            github_token: ${{ secrets.GH_TOKEN }} # default is ${{ github.token }} which when tested doesn't import
             # Run the SRCCLR with the `--quick` options
             #quick: # optional, default is false
             # Show update advisor
